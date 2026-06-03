@@ -7,6 +7,7 @@ A compact command-center UI for turning a curated X follow-list into action: sca
 
 ## New concrete input artifact
 - `account-registry.yaml` — machine-readable scan registry with lab, surface, priority, routing rules, artifact hooks, and a scoring rubric. This converts the raw follow-list into an input that a future scanner or agent run can process deterministically.
+- [[Scan Routing Playbook|Scan Routing Playbook]] — a three-pass routing protocol and matrix that converts recent saved frontier-lab notes into concrete package/prototype/skill actions without inventing signals.
 
 ## How to open
 Open `index.html` in a browser.
@@ -14,4 +15,5 @@ Open `index.html` in a browser.
 ## Next iteration ideas
 - Replace sample rows with data loaded from `account-registry.yaml`. ✅ Registry created.
 - Add per-handle scan cadence and “last useful signal” metadata. ✅ Initial fields created; fill during the first real scan.
+- Turn saved frontier-lab captures into deterministic routes. ✅ Playbook created from the latest source-backed seeds.
 - Add a one-click artifact package brief generator.
