@@ -5,7 +5,7 @@ source_package: "[[../Generated-Packages/Frontier Lab Signal Dashboard/README|Fr
 source_note: "[[../../Ideas/Frontier Lab Accounts to Follow for AI Updates|Frontier Lab Accounts to Follow for AI Updates]]"
 cadence: nightly
 last_improved: 2026-06-03
-next_focus: "Create a structured account registry and run the first real frontier-lab scan into X-Intel captures."
+next_focus: "Run the first real frontier-lab scan using account-registry.yaml and capture up to three high-signal posts."
 tags: [improvement-loop, frontier-labs, ai-intel]
 ---
 

@@ -23,6 +23,7 @@ The source note is more than a follow-list: it is a seed map for a durable AI-la
 
 ## Generated artifacts
 - Prototype: [[../../Prototypes/Frontier Lab Signal Dashboard/README|Frontier Lab Signal Dashboard prototype]] (`index.html`)
+- Account registry: [[../../Prototypes/Frontier Lab Signal Dashboard/account-registry.yaml|Frontier Lab Signal Dashboard account registry]]
 - Infographic: [[../../Infographics/Frontier Lab Signal Dashboard Workflow|Frontier Lab Signal Dashboard Workflow]]
 - Skill draft: [[../../Skills/frontier-lab-signal-dashboard/SKILL|frontier-lab-signal-dashboard skill draft]]
 - Improvement loop: [[../../Improvement-Loops/Frontier Lab Signal Dashboard Loop|Frontier Lab Signal Dashboard Loop]]
@@ -47,13 +48,14 @@ Validation test: run one week of scans and count captures that become artifacts 
 Kill criteria: fewer than two actionable signals per week after pruning accounts
 
 ## Improvement backlog
-- Add a JSON/YAML account registry with owner, lab, theme, and scan priority.
+- Add a JSON/YAML account registry with owner, lab, theme, and scan priority. ✅ Done via [[../../Prototypes/Frontier Lab Signal Dashboard/account-registry.yaml|account-registry.yaml]].
 - Run the next daily scan against the listed handles and save 3 high-signal captures.
 - Add a trend timeline grouped by lab and product surface.
 - Promote the skill draft only after a scan creates at least one artifact package.
 
 ## Change log
 - 2026-06-03: Created package, prototype, infographic, skill draft, improvement loop, and GitHub repo sync.
+- 2026-06-03: Added `account-registry.yaml` so frontier-lab scans have a deterministic, machine-readable input with routing and artifact hooks.
 
 ## GitHub repo
 
