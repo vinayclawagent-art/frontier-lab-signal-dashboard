@@ -37,11 +37,17 @@ These are already saved in the vault and should be used as proof that the dashbo
 | [[../../../Techniques/Cursor Cloud Agent Lessons as Durable Execution Pattern|Cursor Cloud Agent Lessons as Durable Execution Pattern]] | @cursor_ai | Add durable-execution UX comparison against Hermes background jobs. |
 | [[../../../Tools/Grok Build Composer 2.5 as Long-Running Agent Alternative|Grok Build Composer 2.5 as Long-Running Agent Alternative]] | @xai / @grok | Compare long-running composer UX to artifact-factory frequent improvers. |
 
+## Routed trend rows
+
+| Trend row | Source seed | Route decision | Next evidence needed |
+|---|---|---|---|
+| [[Trend Row - Codex Role Plugins vs Hermes Skill Packs|Codex Role Plugins vs Hermes Skill Packs]] | [[../../../Tools/Codex Role Plugins as Vertical Agent Templates|Codex Role Plugins as Vertical Agent Templates]] | Keep inside this dashboard as an 8/10 `vertical-agent-template` signal; compare against Hermes skill-pack entry points before creating any new package. | Exact Codex plugin examples plus a before/after mapping to one Hermes skill pack. |
+
 ## Next-run checklist
 
-- [ ] Pick one source-backed seed above or one fresh exact X URL.
-- [ ] Score it 1-10 using the package rubric.
-- [ ] If score ≥ 7, update either a package backlog or a prototype note.
+- [x] Pick one source-backed seed above or one fresh exact X URL.
+- [x] Score it 1-10 using the package rubric.
+- [x] If score ≥ 7, update either a package backlog or a prototype note.
 - [ ] Update `last_useful_signal` in `account-registry.yaml` for the source handle.
 - [ ] Record the selected route in the improvement loop change log.
 

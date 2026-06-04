@@ -1,0 +1,12 @@
+trend_rows:
+  - id: codex-role-plugins-vs-hermes-skill-packs
+    created: 2026-06-03
+    source_note: "[[../../../Tools/Codex Role Plugins as Vertical Agent Templates|Codex Role Plugins as Vertical Agent Templates]]"
+    source_account: "OpenAI / Codex ecosystem"
+    signal_pattern: "repeatable-agent-workflow"
+    artifact_score: 8
+    best_route: "skill-pack-review-before-package-generation"
+    build_impact: "Role plugins suggest Hermes skill packs should expose sharper vertical-agent entry points, not just general procedures."
+    artifact_action: "Track vertical-agent-template signals and compare them against Hermes skill-pack triggers."
+    done_condition: "One Hermes skill draft or existing skill receives a concrete trigger/entry-point improvement after a real role-plugin comparison."
+    guardrail: "Keep as dashboard trend row until another role-plugin or vertical-agent-template signal appears; do not spawn cron jobs."
