@@ -8,6 +8,7 @@ A compact command-center UI for turning a curated X follow-list into action: sca
 ## New concrete input artifact
 - `account-registry.yaml` — machine-readable scan registry with lab, surface, priority, routing rules, artifact hooks, and a scoring rubric. This converts the raw follow-list into an input that a future scanner or agent run can process deterministically.
 - [[Scan Routing Playbook|Scan Routing Playbook]] — a three-pass routing protocol and matrix that converts recent saved frontier-lab notes into concrete package/prototype/skill actions without inventing signals.
+- [[Handle Route Matrix|Handle Route Matrix]] — human-readable scan routing table with best route, last useful signal, and next operator action per tracked handle.
 - [[Trend Row - Codex Role Plugins vs Hermes Skill Packs|Trend Row - Codex Role Plugins vs Hermes Skill Packs]] — the first source-backed dashboard trend row, routed from the Codex role-plugin seed into a Hermes skill-pack comparison instead of a premature new package.
 - `trend-rows.yaml` — machine-readable trend-row ledger for dashboard rows that are useful but not yet strong enough to become standalone artifact packages.
 
@@ -16,7 +17,7 @@ Open `index.html` in a browser.
 
 ## Next iteration ideas
 - Replace sample rows with data loaded from `account-registry.yaml`. ✅ Registry created.
-- Add per-handle scan cadence and “last useful signal” metadata. ✅ Initial fields created; fill during the first real scan.
+- Add per-handle scan cadence and “last useful signal” metadata. ✅ Initial fields created and surfaced in [[Handle Route Matrix|Handle Route Matrix]]; fill blanks during the next real scan.
 - Turn saved frontier-lab captures into deterministic routes. ✅ Playbook created from the latest source-backed seeds.
 - Add a trend timeline grouped by lab and product surface. ✅ Started with the Codex role-plugin trend row.
 - Add a one-click artifact package brief generator.
