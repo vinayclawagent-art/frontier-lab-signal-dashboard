@@ -6,7 +6,7 @@ schema_version: 1
 scan_policy:
   default_cadence: daily
   minimum_artifact_score: 7
-  capture_limit_per_scan: 3
+  capture_limit_per_scan: 7
   route_options:
     - capture_to_x_intel
     - generate_artifact_package
@@ -77,6 +77,45 @@ accounts:
       - test whether X-native signals improve artifact-factory source discovery
       - create a product brief if real-time X search unlocks a workflow
     last_useful_signal: null
+
+  - handle: "@OpenAIDevs"
+    lab: OpenAI
+    surface: developer_platform
+    priority: high
+    best_route: capture_to_x_intel
+    signal_rules:
+      - Codex, API, SDK, cookbook, plugin, app, or developer-workflow launches
+      - partner demos that reveal repeatable role-agent templates
+    artifact_hooks:
+      - prototype role-specific agent workflow packages
+      - save plugin launches as vertical-agent templates
+    last_useful_signal: "[[../../../Tools/Codex Role Plugins as Vertical Agent Templates|Codex Role Plugins as Vertical Agent Templates]]"
+
+  - handle: "@GoogleAIStudio"
+    lab: Google AI
+    surface: app_builder_and_managed_agents
+    priority: high
+    best_route: capture_to_x_intel
+    signal_rules:
+      - Gemini API, managed agents, Workspace integrations, AI Studio app-builder releases
+      - posts with concrete app-building demos or tester/public-sharing changes
+    artifact_hooks:
+      - create Workspace-agent product briefs
+      - prototype Gmail/Sheets/Drive workflow copilots
+    last_useful_signal: "[[../../../Techniques/Google AI Studio Managed Agents as Workspace App Pattern|Google AI Studio Managed Agents as Workspace App Pattern]]"
+
+  - handle: "@grok"
+    lab: xAI
+    surface: grok_product_surface
+    priority: medium
+    best_route: add_to_watchlist
+    signal_rules:
+      - Grok Build, Notion, X-native search, model, or productivity-surface launches
+      - examples where real-time X context improves an agent workflow
+    artifact_hooks:
+      - compare Grok Build against Hermes/Codex/Claude agent UX
+      - save useful inspectability/background-task patterns
+    last_useful_signal: "[[../../../Tools/Grok Build Composer 2.5 as Long-Running Agent Alternative|Grok Build Composer 2.5 as Long-Running Agent Alternative]]"
 
 scoring_rubric:
   artifact_score_9_10: "Immediate prototype + infographic + skill candidate."

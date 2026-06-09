@@ -6,7 +6,7 @@ source_url: "https://x.com/ai_explorer25/status/2061644979479716142"
 score: 9
 artifact_tracks: [prototype, infographic, skill]
 improvement_cadence: nightly
-last_improved: 2026-06-07
+last_improved: 2026-06-09
 github_repo: "https://github.com/vinayclawagent-art/frontier-lab-signal-dashboard"
 tags: [artifact-package, frontier-labs, ai-intel, signal-dashboard]
 ---
@@ -29,6 +29,7 @@ The source note is more than a follow-list: it is a seed map for a durable AI-la
 - Handle route matrix: [[../../Prototypes/Frontier Lab Signal Dashboard/Handle Route Matrix|Handle Route Matrix]]
 - Source-backed signal evidence attachment: [[../../Prototypes/Frontier Lab Signal Dashboard/Source-Backed Signal Evidence Attachment|Source-Backed Signal Evidence Attachment]]
 - Signal route promotion decision card: [[../../Prototypes/Frontier Lab Signal Dashboard/Signal Route Promotion Decision Card|Signal Route Promotion Decision Card]]
+- One-handle scan packet: [[../../Prototypes/Frontier Lab Signal Dashboard/One-Handle Scan Packet|One-Handle Scan Packet]]
 - Trend row: [[../../Prototypes/Frontier Lab Signal Dashboard/Trend Row - Codex Role Plugins vs Hermes Skill Packs|Codex Role Plugins vs Hermes Skill Packs]] (`trend-rows.yaml`)
 - Infographic: [[../../Infographics/Frontier Lab Signal Dashboard Workflow|Frontier Lab Signal Dashboard Workflow]]
 - Skill draft: [[../../Skills/frontier-lab-signal-dashboard/SKILL|frontier-lab-signal-dashboard skill draft]]
@@ -56,7 +57,7 @@ Kill criteria: fewer than two actionable signals per week after pruning accounts
 ## Improvement backlog
 - Add a JSON/YAML account registry with owner, lab, theme, and scan priority. ✅ Done via [[../../Prototypes/Frontier Lab Signal Dashboard/account-registry.yaml|account-registry.yaml]].
 - Run the next daily scan against the listed handles and save 3 high-signal captures using [[../../Prototypes/Frontier Lab Signal Dashboard/First Scan Capture Ledger|First Scan Capture Ledger]] plus [[../../Prototypes/Frontier Lab Signal Dashboard/Handle Route Matrix|Handle Route Matrix]].
-- Fill one source-backed signal slot during the next real scan. ✅ Evidence attachment ready via [[../../Prototypes/Frontier Lab Signal Dashboard/Source-Backed Signal Evidence Attachment|Source-Backed Signal Evidence Attachment]] and decision card ready via [[../../Prototypes/Frontier Lab Signal Dashboard/Signal Route Promotion Decision Card|Signal Route Promotion Decision Card]].
+- Fill one source-backed signal slot during the next real scan. ✅ Evidence attachment, route decision card, and [[../../Prototypes/Frontier Lab Signal Dashboard/One-Handle Scan Packet|One-Handle Scan Packet]] are ready for a single verified handle.
 - Convert saved captures into a deterministic route before creating more packages. ✅ Done via [[../../Prototypes/Frontier Lab Signal Dashboard/Scan Routing Playbook|Scan Routing Playbook]].
 - Add a trend timeline grouped by lab and product surface. ✅ Started with [[../../Prototypes/Frontier Lab Signal Dashboard/Trend Row - Codex Role Plugins vs Hermes Skill Packs|Codex Role Plugins vs Hermes Skill Packs]].
 - Compare Codex role-plugin templates against Hermes skill-pack entry points and record one concrete trigger improvement.
@@ -71,6 +72,7 @@ Kill criteria: fewer than two actionable signals per week after pruning accounts
 - 2026-06-05: Added [[../../Prototypes/Frontier Lab Signal Dashboard/Handle Route Matrix|Handle Route Matrix]] so best route, last useful signal, and next operator action are visible for every tracked handle.
 - 2026-06-06: Added a source-backed signal evidence attachment so the next scan updates exactly one handle with URL-backed evidence and a deterministic route.
 - 2026-06-07: Added a signal route promotion decision card so the next real scan can choose package-now, trend-row, scan-note-only, or ignore from evidence instead of speculation.
+- 2026-06-09: Added the One-Handle Scan Packet so the next scan has one canonical source-verification and route-decision surface before matrix/package updates.
 
 ## GitHub repo
 

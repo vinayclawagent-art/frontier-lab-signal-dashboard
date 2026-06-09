@@ -1,25 +1,24 @@
 # Frontier Lab Signal Dashboard
 
-GitHub-published X Artifact Factory package.
+X Artifact Factory kit generated from Vinay's X-Intel vault.
 
 ## Why this exists
-Inspired by the linked X-Intel source note and maintained from `/home/vinclaw/Documents/Obsidian/x-intel`.
+Inspired by: /home/vinclaw/Documents/Obsidian/x-intel/Artifacts/Generated-Packages/Frontier Lab Signal Dashboard/README.md
 
 ## What it contains
-- `artifact-package/` — package note and product framing
-- `prototype/` — clickable or inspectable prototype artifacts
-- `infographic/` — workflow explanation when available
-- `skill-draft/` — reusable-agent procedure draft when available
-- `improvement-loop/` — recurring improvement tracker when available
+- `artifact-package/` — Obsidian package note
+- `prototype/` — dependency-free demo or workflow surface
+- `infographic/` — workflow explanation
+- `skill-draft/` — unpromoted Hermes skill candidate when available
+- `improvement-loop/` — recurring improvement tracker
 
 ## Quickstart
-Open files directly. For HTML prototypes:
+Open `prototype/index.html` locally if present, then read the package README and improvement loop before making claims of validation.
 
-```bash
-python3 -m http.server 8080
-```
+## Roadmap
+- Run one real trial.
+- Attach evidence.
+- Decide promote / iterate / hold.
 
-Then visit `http://localhost:8080/prototype/` or open the HTML file.
-
-## Source
-This repo is synced from Vinay's X-Intel Artifact Factory vault.
+## Contributing
+Keep source links, evidence gates, and no-fabricated-validation wording intact.

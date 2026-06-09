@@ -45,3 +45,17 @@ Priority accounts for the first run, drawn from [[../../../Ideas/Frontier Lab Ac
 ## Next automation hook
 
 A future improver can parse this file for empty capture slots. If all slots are still empty after a scan attempt, record the blocker under this heading instead of inventing signals.
+
+
+## Save-more expansion — 2026-06-03
+
+Additional source-backed captures saved after Vinay selected `Save more`:
+
+1. [[../../../Tools/Project Glasswing as Enterprise Claude Expansion|Project Glasswing as Enterprise Claude Expansion]] — @AnthropicAI
+2. [[../../../Tools/Codex Role Plugins as Vertical Agent Templates|Codex Role Plugins as Vertical Agent Templates]] — @OpenAI
+3. [[../../../Tools/Codex Sites as Agent Prototype Review Surface|Codex Sites as Agent Prototype Review Surface]] — @OpenAIDevs
+4. [[../../../Techniques/Google AI Studio Managed Agents as Workspace App Pattern|Google AI Studio Managed Agents as Workspace App Pattern]] — @GoogleAIStudio
+5. [[../../../Techniques/Cursor Cloud Agent Lessons as Durable Execution Pattern|Cursor Cloud Agent Lessons as Durable Execution Pattern]] — @cursor_ai
+6. [[../../../Tools/Grok Build Composer 2.5 as Long-Running Agent Alternative|Grok Build Composer 2.5 as Long-Running Agent Alternative]] — @xai
+7. [[../../../Techniques/Grok Build Inspectability and Background Task UX|Grok Build Inspectability and Background Task UX]] — @skcd42
+8. [[../../../Techniques/Salesforce Agentic Engineering as Enterprise Proof Point|Salesforce Agentic Engineering as Enterprise Proof Point]] — @bcherny
